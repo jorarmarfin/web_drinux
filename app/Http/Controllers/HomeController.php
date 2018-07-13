@@ -15,7 +15,9 @@ class HomeController extends Controller
 	}
     public function index()
     {
-    	$configuracion = $this->drupal->getRequest('nid',false,4);
-    	return view('index',compact('configuracion'));
+    	$configuracion = $this->drupal->getRequest('config',false);
+        $slider = $this->drupal->getRequest('slider',true);
+    	$servicios = $this->drupal->getRequest('servicios',true);
+    	return view('index',compact('configuracion','slider','servicios'));
     }
 }

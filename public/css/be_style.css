@@ -13,10 +13,10 @@
 /*
 |--------------------------------------------------------------------------
 |  1.0 woocommerce
-|  
+|
 |--------------------------------------------------------------------------
 |
-| 
+|
 |
 */
 @-moz-keyframes spin {
@@ -3130,10 +3130,10 @@ h3#ship-to-different-address label {
 /*
 |--------------------------------------------------------------------------
 |  2.0 woocommerce-layout
-|  
+|
 |--------------------------------------------------------------------------
 |
-| 
+|
 |
 */
 .clear {
@@ -3531,10 +3531,10 @@ h3#ship-to-different-address label {
 /*
 |--------------------------------------------------------------------------
 |  3.0 Demo Styles
-|  
+|
 |--------------------------------------------------------------------------
 |
-| 
+|
 |
 */
 body.contact #Content,body.content_no_padding #Content {
@@ -3542,7 +3542,7 @@ body.contact #Content,body.content_no_padding #Content {
 }
 
 /* ------------------------------------------- *
- * font awesome 
+ * font awesome
  * ------------------------------------------- */
 .the-icons.span3 {
     float: left;
@@ -3697,7 +3697,7 @@ h6 {
 }
 
 .header-classic #Action_bar,.header-stack #Action_bar {
-    background-color: #2C2C2C;
+    background-color: #333;
 }
 
 #Sliding-top {
@@ -3725,7 +3725,7 @@ h6 {
 }
 
 a {
-    color: #2991d6;
+    color: #fbd200;
 }
 
 a:hover {
@@ -3852,7 +3852,7 @@ a.mfn-link-6:before {
 }
 
 #Top_bar .search_wrapper {
-    background: #2991d6;
+    background: #444040;
 }
 
 #Subheader .title {
@@ -4059,7 +4059,7 @@ ul.clients.clients_tiles li .client_wrapper:after {
 }
 
 .tp-caption.mfnrs_home_small,.mfnrs_home_small {
-    color: #aab7ff;
+    color: #fff;
     font-size: 22px;
     line-height: 26px;
     font-weight: 200;

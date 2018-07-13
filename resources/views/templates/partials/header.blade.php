@@ -5,7 +5,7 @@
             <div class="top_bar_left clearfix">
                 <!-- Logo-->
                 <div class="logo">
-                    <a id="logo" href="index.html" title="BeTheme - Best Html Theme Ever"><img class="scale-with-grid" src="images/logo1.png" alt="BeTheme - Best Html Theme Ever" />
+                    <a id="logo" href="index.html" title="BeTheme - Best Html Theme Ever"><img class="scale-with-grid" src="{{ $configuracion->imagen }}" alt="BeTheme - Best Html Theme Ever" />
                     </a>
                 </div>
                 <!-- Main menu-->

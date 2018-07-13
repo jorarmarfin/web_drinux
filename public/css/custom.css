@@ -1,0 +1,20 @@
+.flv_sections_drinux {
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: #333;
+}
+
+.font-color-white h3 {
+    color: #fff !important;
+}
+
+.desc {
+    font-size: 1.3rem;
+}
+
+.servicios {
+    background-color: #333;
+}
+.servicios h2 {
+    color: #fff;
+}
