@@ -7,7 +7,7 @@
                     Tiene alguna pregunta llamanos?
                 </li>
                 <li class="phone">
-                    <i class="icon-phone"></i><a href="tel:+61383766284">{{ $configuracion->telefono }}</a>
+                    <i class="icon-phone"></i><a href="tel:+61383766284">(+511) 732 7055</a>
                 </li>
                 <li class="mail">
                     <i class="icon-mail-line"></i><a href="mailto:{{ $configuracion->email }}">{{ $configuracion->email }}</a>

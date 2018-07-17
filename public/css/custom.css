@@ -4,12 +4,17 @@
     background-color: #333;
 }
 
-.font-color-white h3 {
-    color: #fff !important;
+h2.text-color-white {
+    color: #fff;
 }
-
+.text-align-center {
+    text-align: center;
+}
+.list_left.list_icon.text-align-center {
+    text-align: center;
+}
 .desc {
-    font-size: 1.3rem;
+    text-align: justify;
 }
 
 .servicios {
@@ -17,4 +22,20 @@
 }
 .servicios h2 {
     color: #fff;
+}
+.flv_color_yellow {
+    color: #fbd300;
+}
+#Footer .footer_action {
+    background: #333;
+}
+#Footer {
+    background-color: #333;
+}
+.flv_background_white {
+    background-color: rgba(255, 255, 255, 0.13);
+}
+
+.feature_list ul li .icon i, .list_item .list_left  .color_yellow{
+    color: #fbd300;
 }
