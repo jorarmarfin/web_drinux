@@ -44,7 +44,7 @@
                 <div class="fancy_heading fancy_heading_icon">
                     <!-- Animated area -->
                     <div class="animate" data-anim-type="zoomInLeftLarge">
-                        <h2 class="title">{{ $porque->titulo }}</h2>
+                        <h2 class="title"></h2>
                         {{-- <div class="inside">
                             <span class="big">{!! $porque->body !!}</span>
                         </div> --}}

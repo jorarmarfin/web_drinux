@@ -19,10 +19,10 @@ class HomeController extends Controller
         $slider = $this->drupal->getRequest('slider',true);
         $servicios = $this->drupal->getRequest('servicios',true);
         $eligenos = $this->drupal->getRequest('eligenos',true);
-        $porque = $this->drupal->getRequest('nid',false,13);
         $tecnologias = $this->drupal->getRequest('tecnologias',true);
         $footer1 = $this->drupal->getRequest('nid',false,20);
         $copyright = $this->drupal->getRequest('nid',false,21);
+        $porque = [];
 
         // dd($configuracion);
     	return view('index',compact('configuracion','slider','servicios',
