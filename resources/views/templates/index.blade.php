@@ -32,7 +32,7 @@
 
 <body class="page-parent template-slider color-blue layout-full-width header-classic subheader-transparent sticky-header sticky-white subheader-title-left">
     <!-- Hidden Top Area -->
-    @include('templates.partials.hidden-top')
+    {{-- @include('templates.partials.hidden-top') --}}
     <!-- Main Theme Wrapper -->
     <div id="Wrapper">
         <!-- Header Wrapper -->
