@@ -44,7 +44,7 @@
                 <div class="fancy_heading fancy_heading_icon">
                     <!-- Animated area -->
                     <div class="animate" data-anim-type="zoomInLeftLarge">
-                        <h2 class="title">{{ $porque->titulo }}</h2>
+                        {{-- <h2 class="title">{{ $porque->titulo }}</h2> --}}
                         {{-- <div class="inside">
                             <span class="big">{!! $porque->body !!}</span>
                         </div> --}}
@@ -77,7 +77,7 @@
                             <i class="{{ $eligenos[1]->icono }}"></i>
                         </div>
                         <div class="list_right">
-                            <h4>{{ $eligenos[1]->titulo }}</h4>
+                            <h4 class="title">{{ $eligenos[1]->titulo }}</h4>
                             <div class="desc">
                                 {!! $eligenos[1]->body !!}
                             </div>
@@ -99,7 +99,7 @@
                             <i class="icon-chart-line"></i>
                         </div>
                         <div class="list_right">
-                            <h4>{{ $eligenos[2]->titulo }}</h4>
+                            <h4 class="title">{{ $eligenos[2]->titulo }}</h4>
                             <div class="desc">
                                 {!! $eligenos[2]->body !!}
                             </div>
@@ -116,7 +116,7 @@
                             <i class="icon-users"></i>
                         </div>
                         <div class="list_right">
-                            <h4>{{ $eligenos[3]->titulo }}</h4>
+                            <h4 class="title">{{ $eligenos[3]->titulo }}</h4>
                             <div class="desc">
                                 {!! $eligenos[3]->body !!}
                             </div>

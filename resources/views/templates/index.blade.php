@@ -55,7 +55,7 @@
                         @include('templates.partials.cotizacion')
                         @include('templates.partials.servicios')
                         @include('templates.partials.eligenos')
-                        @include('templates.partials.tecnologias')
+                        {{-- @include('templates.partials.tecnologias') --}}
 
                     </div>
                 </div>
@@ -64,7 +64,7 @@
         <!-- Footer-->
         <footer id="Footer" class="clearfix">
             <!-- Footer - First area -->
-            @include('templates.partials.footer1')
+            {{-- @include('templates.partials.footer1') --}}
             <hr class="flv_background_white">
             @include('templates.partials.footer2')
             <!-- Footer copyright-->

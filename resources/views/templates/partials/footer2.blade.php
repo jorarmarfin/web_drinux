@@ -1,6 +1,6 @@
 <div class="widgets_wrapper">
     <div class="container">
-        <div class="one-fourth column">
+        {{-- <div class="one-fourth column">
             <!-- Text Area -->
             <aside id="text-7" class="widget widget_text">
                 <div class="textwidget"><img src="{{ $configuracion->imagen }}" alt="">
@@ -29,7 +29,7 @@
                     </a>
                 </div>
             </aside>
-        </div>
+        </div> --}}
         <div class="one-fourth column">
             <div class="list_item lists_2 clearfix">
                 <div class="list_left list_icon">

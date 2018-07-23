@@ -93,10 +93,17 @@ h2.text-color-white {
 /*¿Por qué elegirnos*/
 #ecommerce_ready{
     background: none;
-    background: linear-gradient(
+    /*background: linear-gradient(
       rgba(252 , 165, 32, 0.9), 
       rgba(252 , 165, 32, 0.9)
-    ), url(../images/section_ecommerce_ready.png);
+    ), url(../images/section_ecommerce_ready.png);*/
+    background: url(../images/por-que-elegirnos-bg.jpg);
+}
+#ecommerce_ready > .section_wrapper{
+    width: 960px;
+}
+#ecommerce_ready .fancy_heading{
+    margin-top: 50px;
 }
 #ecommerce_ready .fancy_heading h2.title{
     text-align: center;
@@ -115,4 +122,17 @@ h2.text-color-white {
 #ecommerce_ready .column_list .list_item .list_icon{
     text-align: center;
     color: #fff;
+}
+#ecommerce_ready .column_list .list_item .title{
+    color: #fff;
+}
+#ecommerce_ready .column_list .list_item .desc{
+    text-align: center;
+}
+
+/*Footer*/
+#footer .container .one-fourth.column{
+    box-sizing: border-box;
+    width: 33.33%;
+    margin: 0;
 }
