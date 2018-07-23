@@ -9,21 +9,7 @@
                     </a>
                 </div>
                 <!-- Main menu-->
-                <div class="menu_wrapper">
-                    <nav id="menu">
-                        <ul id="menu-main-menu" class="menu">
-                            <li>
-                                <a href="#" target="_blank"><span>Inicio</span></a>
-                            </li>
-                            <li>
-                                <a href="features-color-skins.html"><span>¿Porque elegirnos?</span></a>
-                            </li>
-                            <li>
-                                <a href="features-color-skins.html"><span>Contactenos</span></a>
-                            </li>
-                        </ul>
-                    </nav><a class="responsive-menu-toggle" href="#"><i class="icon-menu"></i></a>
-                </div>
+                @include('templates.partials.mainmenu')
                 <!-- Banner area - only for certain pages-->
                 <div class="banner_wrapper">
                     <a href="#" target="_blank"><img src="images/468x60.gif" alt="">
