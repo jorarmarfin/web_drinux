@@ -45,9 +45,9 @@
                     <!-- Animated area -->
                     <div class="animate" data-anim-type="zoomInLeftLarge">
                         <h2 class="title">{{ $porque->titulo }}</h2>
-                        <div class="inside">
+                        {{-- <div class="inside">
                             <span class="big">{!! $porque->body !!}</span>
-                        </div>
+                        </div> --}}
                     </div>
                 </div>
             </div>
@@ -60,7 +60,7 @@
                             <i class="{{ $eligenos[0]->icono }}"></i>
                         </div>
                         <div class="list_right">
-                            <h4>{{ $eligenos[0]->titulo }}</h4>
+                            <h4 class="title">{{ $eligenos[0]->titulo }}</h4>
                             <div class="desc">
                                 {!! $eligenos[0]->body !!}
                             </div>
@@ -87,9 +87,9 @@
             </div>
             <!-- Page devider -->
             <!-- One full width row-->
-            <div class="column one column_divider">
+            {{-- <div class="column one column_divider">
                 <hr class="no_line" />
-            </div>
+            </div> --}}
             <!-- One Third (1/3) Column -->
             <div class="column one-third column_list">
                 <div class="list_item lists_3 clearfix">

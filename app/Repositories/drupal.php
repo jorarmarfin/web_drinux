@@ -13,7 +13,7 @@ class Drupal
 	public function __construct()
 	{
 		$this->client = new Client([
-			'base_uri' => 'http://drupaldrinux.test'
+			'base_uri' => 'http://drupal.drinux.com/'
 		]);
 	}
 

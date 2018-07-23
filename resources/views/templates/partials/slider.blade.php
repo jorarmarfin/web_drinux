@@ -50,9 +50,10 @@
                                         <br> A su medida
                                     </div>
                                     <div class="tp-caption mfnrs_home_small sfl tp-resizeme flv_rev_2" data-x="center" data-hoffset="-387" data-y="center" data-voffset="48" data-speed="500" data-start="3700" data-easing="Power3.easeInOut" data-splitin="none" data-splitout="none" data-elementdelay="0.1" data-endelementdelay="0.1" data-endspeed="300">
-                                        <span class="flv_rev_3">Lorem Ipsum 1
-                                                <br>
-                                                Lorem Ipsum 2</span>
+                                        <span class="flv_rev_3">
+                                            Lorem Ipsum 1<br>
+                                            Lorem Ipsum 2
+                                        </span>
                                     </div>
                                     <div class="tp-caption sfb tp-resizeme flv_rev_1" data-x="center" data-hoffset="-481" data-y="center" data-voffset="161" data-speed="500" data-start="4000" data-easing="Power3.easeInOut" data-splitin="none" data-splitout="none" data-elementdelay="0.1" data-endelementdelay="0.1" data-endspeed="300">
                                         <a href='#' class='tp-button button button_theme'>See all shortcodes</a>

@@ -1,6 +1,12 @@
 <div class="section flv_sections_6" id="start">
     <div class="section_wrapper clearfix">
         <div class="items_group clearfix">
+            <div class="fancy_heading fancy_heading_icon">
+                <!-- Animated area -->
+                <div class="animate zoomInLeftLarge" data-anim-type="zoomInLeftLarge">
+                    <h2 class="title">Nuestros servicios</h2>
+                </div>
+            </div>
             <!-- One Third (1/4) Column -->
             <div class="column one-fourth column_icon_box">
                 <!-- Animated area -->
@@ -14,9 +20,9 @@
                             </div>
                             <div class="desc_wrapper">
                                 <h4> {{ $servicios[0]->titulo }}</h4>
-                                <div class="desc">
+                                {{-- <div class="desc">
                                     {!! $servicios[0]->body !!}
-                                </div>
+                                </div> --}}
                             </div>
                         </a>
                     </div>
@@ -35,9 +41,9 @@
                             </div>
                             <div class="desc_wrapper">
                                 <h4> {{ $servicios[1]->titulo }}</h4>
-                                <div class="desc">
+                                {{-- <div class="desc">
                                     {!! $servicios[1]->body !!}
-                                </div>
+                                </div> --}}
                             </div>
                         </a>
                     </div>
@@ -56,9 +62,9 @@
                             </div>
                             <div class="desc_wrapper">
                                 <h4> {{ $servicios[2]->titulo }}</h4>
-                                <div class="desc">
+                                {{-- <div class="desc">
                                     {!! $servicios[2]->body !!}
-                                </div>
+                                </div> --}}
                             </div>
                         </a>
                     </div>
@@ -77,9 +83,9 @@
                             </div>
                             <div class="desc_wrapper">
                                 <h4> {{ $servicios[3]->titulo }}</h4>
-                                <div class="desc">
+                                {{-- <div class="desc">
                                     {!! $servicios[3]->body !!}
-                                </div>
+                                </div> --}}
                             </div>
                         </a>
                     </div>

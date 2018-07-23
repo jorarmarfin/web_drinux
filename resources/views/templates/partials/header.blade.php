@@ -5,7 +5,7 @@
             <div class="top_bar_left clearfix">
                 <!-- Logo-->
                 <div class="logo">
-                    <a id="logo" href="index.html" title="BeTheme - Best Html Theme Ever"><img class="scale-with-grid" src="{{ $configuracion->imagen }}" alt="BeTheme - Best Html Theme Ever" />
+                    <a id="logo" href="index.html" title="Drinux"><img class="scale-with-grid" src="{{ $configuracion->imagen }}" alt="Drinux" />
                     </a>
                 </div>
                 <!-- Main menu-->
@@ -38,7 +38,7 @@
                     </form>
                 </div>
             </div>
-            <div class="top_bar_right">
+            {{-- <div class="top_bar_right">
                 <div class="top_bar_right_wrapper">
                     <!-- Shopping cart icon-->
                     <a id="search_button" href="#"><i class="icon-search"></i></a>
@@ -62,7 +62,7 @@
                         </ul>
                     </div>
                 </div>
-            </div>
+            </div> --}}
         </div>
     </div>
 </div>

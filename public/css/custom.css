@@ -39,3 +39,80 @@ h2.text-color-white {
 .feature_list ul li .icon i, .list_item .list_left  .color_yellow{
     color: #fbd300;
 }
+
+/*Rewrite Styles*/
+#Top_bar .menu_wrapper{
+    float: unset;
+    float: right;
+}
+
+/*Servicios*/
+#start{
+    padding: 0;
+    background-color: #333;
+}
+#start .section_wrapper{
+    width: 100%;
+}
+#start .section_wrapper .items_group .fancy_heading .title{
+    color: #fff;
+}
+#start .section_wrapper > .items_group > .column{
+    width: 25%;
+    margin: 0;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background: linear-gradient(
+      rgba(0 , 0, 0, 0.7), 
+      rgba(0 , 0, 0, 0.7)
+    ), url(http://drupal.drinux.com/sites/default/files/styles/fondo_servicios/public/drinux/servicios/2018-07/app_movil_fondo.jpg?itok=Mm_cXEpp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#start .section_wrapper > .items_group > .column .desc_wrapper h4{
+    color: #fff;
+}
+#start .icon_wrapper{
+    background: none;
+    border: none;
+    box-shadow: none;
+}
+#start .icon_wrapper .icon{
+    font-size: 5.5rem;
+    color: #fff;
+}
+#start .icon_wrapper:before{
+    display: none;
+}
+
+/*Slider*/
+#mfn-rev-slider .tp-thumbs{
+    display: none;
+}
+
+/*¿Por qué elegirnos*/
+#ecommerce_ready{
+    background: none;
+    background: linear-gradient(
+      rgba(252 , 165, 32, 0.9), 
+      rgba(252 , 165, 32, 0.9)
+    ), url(../images/section_ecommerce_ready.png);
+}
+#ecommerce_ready .fancy_heading h2.title{
+    text-align: center;
+    color: #fff;
+}
+#ecommerce_ready .column_list{
+    box-sizing: border-box;
+    width: 25%;
+    margin: 0;
+    padding: 10px;
+}
+#ecommerce_ready .column_list .list_item{
+    text-align: center;
+    color: #fff;
+}
+#ecommerce_ready .column_list .list_item .list_icon{
+    text-align: center;
+    color: #fff;
+}

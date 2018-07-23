@@ -23,6 +23,8 @@ class HomeController extends Controller
         $tecnologias = $this->drupal->getRequest('tecnologias',true);
         $footer1 = $this->drupal->getRequest('nid',false,20);
         $copyright = $this->drupal->getRequest('nid',false,21);
+
+        // dd($configuracion);
     	return view('index',compact('configuracion','slider','servicios',
             'eligenos','porque','tecnologias','footer1','copyright'));
     }
