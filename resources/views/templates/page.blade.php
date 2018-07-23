@@ -44,7 +44,6 @@
                 <!-- Header -  Logo and Menu area -->
                 @include('templates.partials.header')
                 <!-- Revolution slider area-->
-                @include('templates.partials.slider')
             </header>
         </div>
         <!-- Main Content -->
@@ -52,10 +51,7 @@
             <div class="content_wrapper clearfix">
                 <div class="sections_group">
                     <div class="entry-content">
-                        @include('templates.partials.cotizacion')
-                        @include('templates.partials.servicios')
-                        @include('templates.partials.eligenos')
-                        @include('templates.partials.tecnologias')
+                    @yield('content')
 
                     </div>
                 </div>

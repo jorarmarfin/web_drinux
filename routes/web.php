@@ -12,6 +12,10 @@
 */
 Route::get('/','HomeController@index')->name('index');
 
+Route::namespace('Paginas')->group(function () {
+	Route::get('inteligencia-de-negocios','InteligenciaNegocioController@index')->name('inteligencia.index');
+});
+
 /*Route::get('/', function () {
     return view('welcome');
 });*/
