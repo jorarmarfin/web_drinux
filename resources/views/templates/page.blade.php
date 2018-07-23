@@ -55,8 +55,7 @@
                         @include('templates.partials.cotizacion')
                         @include('templates.partials.servicios')
                         @include('templates.partials.eligenos')
-                        @include('templates.partials.contacto-portada')
-                        {{-- @include('templates.partials.tecnologias') --}}
+                        @include('templates.partials.tecnologias')
 
                     </div>
                 </div>
@@ -65,19 +64,19 @@
         <!-- Footer-->
         <footer id="Footer" class="clearfix">
             <!-- Footer - First area -->
-            {{-- @include('templates.partials.footer1') --}}
-            {{-- <hr class="flv_background_white"> --}}
+            @include('templates.partials.footer1')
+            <hr class="flv_background_white">
             @include('templates.partials.footer2')
             <!-- Footer copyright-->
             <div class="footer_copy">
                 <div class="container">
                     <div class="column one">
-                        <div class="copyright" style="width: 100%; text-align: center;">
+                        <a id="back_to_top" href="#" class="button button_left button_js"><span class="button_icon"><i class="icon-up-open-big"></i></span></a>
+                        <div class="copyright">
                             {!! $copyright->body !!}
                         </div>
-                        <a id="back_to_top" href="#" class="button button_left button_js" style="margin-top: -45px;"><span class="button_icon"><i class="icon-up-open-big"></i></span></a>
                         <!--Social info area-->
-                        {{-- <ul class="social">
+                        <ul class="social">
                             @isset ($configuracion->skype)
                             <li class="skype">
                                 <a href="#" title="Skype"><i class="icon-skype"></i></a>
@@ -128,7 +127,7 @@
                                 <a href="https://dribbble.com" title="Dribbble"><i class="icon-dribbble"></i></a>
                             </li>
                             @endisset
-                        </ul> --}}
+                        </ul>
                     </div>
                 </div>
             </div>

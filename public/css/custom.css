@@ -98,6 +98,9 @@ h2.text-color-white {
       rgba(252 , 165, 32, 0.9)
     ), url(../images/section_ecommerce_ready.png);*/
     background: url(../images/por-que-elegirnos-bg.jpg);
+    /*background-position: center center;*/
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 #ecommerce_ready > .section_wrapper{
     width: 960px;
@@ -130,9 +133,66 @@ h2.text-color-white {
     text-align: center;
 }
 
+/*Contacto Portada*/
+#contact-front{
+    padding: 0;
+    background-color: #ffc107;
+}
+#contact-front .section_wrapper{
+    width: 960px;
+}
+#contact-front .section_wrapper .items_group .fancy_heading .title{
+    margin-top: 20px;
+    color: #fff;
+}
+#contact-front .section_wrapper > .items_group > .column{
+    width: 100%;
+}
+#contact-front .section_wrapper > .items_group > .column .desc_wrapper form input{
+    float: left;
+}
+#contact-front .section_wrapper > .items_group > .column .desc_wrapper form textarea{
+    float: left;
+}
+
 /*Footer*/
-#footer .container .one-fourth.column{
+#Footer > .widgets_wrapper{
+    background: linear-gradient(
+      rgba(80, 80, 80, 0.1), 
+      rgba(80, 80, 80, 0.1)
+    ), url(../images/footer-bg.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#Footer .container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+#Footer .container .one-fourth.column{
+    display: flex;
+    align-content: center;
+    justify-content: center;
     box-sizing: border-box;
-    width: 33.33%;
+    /*width: 33.33%;*/
+    flex-grow: 1;
     margin: 0;
+}
+#Footer .container .one-fourth.column .list_item{
+    width: 100%;
+}
+#Footer .container .one-fourth.column .list_item .list_left{
+    width: 100%;
+    color: #ffc107;
+}
+#Footer .container .one-fourth.column .list_item .list_right{
+    width: 100%;
+    margin-left: 0;
+}
+#Footer .container .one-fourth.column .list_item .list_right .desc{
+    text-align: center;
+}
+#Footer .container .one-fourth.column .list_item .list_right .desc a{
+    color: #fff;
 }
