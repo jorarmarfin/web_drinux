@@ -14,16 +14,16 @@
                         <a href="#"><span>Aula virtuales</span></a>
                     </li>
                     <li>
-                        <a href="#"><span>Aplicaciones móviles</span></a>
+                        <a href="{{ route('aplicacionesmoviles.index') }}"><span>Aplicaciones móviles</span></a>
                     </li>
                     <li>
                         <a href="{{ route('inteligencia.index') }}"><span>Inteligencia para su negocio</span></a>
                     </li>
                     <li>
-                        <a href="#"><span>Sistemas de información</span></a>
+                        <a href="{{ route('sistema.index') }}"><span>Sistemas de información</span></a>
                     </li>
                     <li>
-                        <a href="#"><span>Comercio electrónico</span></a>
+                        <a href="{{ route('comercio.index') }}"><span>Comercio electrónico</span></a>
                     </li>
                     <li>
                         <a href="#"><span>Consultoría informática</span></a>

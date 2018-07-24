@@ -6,7 +6,7 @@ use App\Http\Controllers\Controller;
 use App\Repositories\Drupal;
 use Illuminate\Http\Request;
 
-class InteligenciaNegocioController extends Controller
+class ComercioElectronicoController extends Controller
 {
 	private $drupal;
 
@@ -16,10 +16,8 @@ class InteligenciaNegocioController extends Controller
 	}
     public function index()
     {
-    	$nodo = $this->drupal->getRequest('pagina',false,25);
+    	$nodo = $this->drupal->getRequest('pagina',false,27);
 
-    	return view('web.inteligencia',compact('nodo'));
+    	return view('web.comercio',compact('nodo'));
     }
-
-
 }

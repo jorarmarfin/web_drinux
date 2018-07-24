@@ -5,7 +5,7 @@
             <div class="top_bar_left clearfix">
                 <!-- Logo-->
                 <div class="logo">
-                    <a id="logo" href="index.html" title="Drinux"><img class="scale-with-grid" src="{{ $configuracion->imagen }}" alt="Drinux" />
+                    <a id="logo" href="{{ route('index') }}" title="Drinux"><img class="scale-with-grid" src="{{ $configuracion->imagen }}" alt="Drinux" />
                     </a>
                 </div>
                 <!-- Main menu-->
