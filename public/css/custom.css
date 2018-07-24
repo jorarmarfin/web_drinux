@@ -295,3 +295,6 @@ h2.text-color-white {
     background-color: #ffc107;
     color: #fff;
 }
+#popup_contact.focus .popup_contact_wrapper{
+    box-shadow: -7px -7px 15px #999;
+}
