@@ -31,7 +31,7 @@
             </aside>
         </div> --}}
         <div class="one-fourth column">
-            <div class="list_item lists_2 clearfix">
+            <div class="list_item lists_2 clearfix animate fadeInLeftLarge" data-anim-type="fadeInLeftLarge">
                 <div class="list_left list_icon">
                     <i class="fas fa-map-marker-alt"></i>
                 </div>
@@ -45,7 +45,7 @@
             </div>
         </div>
         <div class="one-fourth column">
-            <div class="list_item lists_2 clearfix">
+            <div class="list_item lists_2 clearfix animate fadeInLeftLarge" data-anim-type="fadeInLeftLarge">
                 <div class="list_left list_icon">
                     <i class=" fas fa-phone-volume"></i>
                 </div>
@@ -59,7 +59,7 @@
             </div>
         </div>
         <div class="one-fourth column">
-            <div class="list_item lists_2 clearfix">
+            <div class="list_item lists_2 clearfix animate fadeInLeftLarge" data-anim-type="fadeInLeftLarge">
                 <div class="list_left list_icon">
                     <i class=" icon-mail-line"></i>
                 </div>

@@ -196,3 +196,87 @@ h2.text-color-white {
 #Footer .container .one-fourth.column .list_item .list_right .desc a{
     color: #fff;
 }
+
+/*Banner Interna*/
+.banner-interna{
+    width: 100%;
+}
+.banner-interna .items_group > .column{
+    width: 100%;
+    margin: 0;
+}
+.banner-interna .items_group > .column > .call_to_action{
+    padding: 0;
+}
+.banner-interna .items_group > .column .call_to_action_wrapper .call_center{
+    position: relative;
+}
+.banner-interna .items_group > .column .call_to_action_wrapper .call_center img{
+    display: block;
+}
+.banner-interna .items_group > .column .call_to_action_wrapper .call_center .banner-interna-desc{
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    background-color: rgba(50,50,50,0.8);
+}
+.banner-interna .items_group > .column .call_to_action_wrapper .call_center .banner-interna-desc .banner-interna-desc-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1200px;
+    width: 100%;
+}
+.banner-interna .items_group > .column .call_to_action_wrapper .call_center .banner-interna-desc .banner-interna-desc-content label{
+    margin-right: 10px;
+    font-size: 1.3rem;
+    color: #fff;
+}
+.banner-interna .items_group > .column .call_to_action_wrapper .call_center .banner-interna-desc .banner-interna-desc-content a{
+    margin-left: 10px;
+    text-align: center;
+}
+
+.block-item-lr{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.block-item-lr h2{
+    padding: 25px;
+}
+.block-item-lr img{
+    width: 50%;
+}
+.block-item-lr p{
+    text-align: justify;
+    color: #888;
+}
+.block-item-lr .title{
+    color: orange;
+}
+.block-item-lr a{
+    text-decoration: none;
+    color: #888;
+}
+.title-block{
+    color: orange;
+}
+.block-item-lr form input{
+    width: 100%;
+    color: #888;
+}
+.block-item-lr form textarea{
+    width: 100%;
+    height: 180px;
+    color: #888;
+}
+.block-item-lr form input[type="submit"]{
+    background-color: #ffc107;
+    font-weight: 600;
+    color: #000;
+}
