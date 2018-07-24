@@ -16,4 +16,6 @@
 
 
 {{-- Clientes --}}
+@include('web.partials.clientes-confian')
+
 @endsection

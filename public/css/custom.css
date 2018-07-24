@@ -242,6 +242,7 @@ h2.text-color-white {
 }
 
 .block-item-lr{
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -251,6 +252,12 @@ h2.text-color-white {
 }
 .block-item-lr img{
     width: 50%;
+}
+.block-item-lr .img-hover{
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 0;
 }
 .block-item-lr p{
     text-align: justify;
@@ -279,4 +286,12 @@ h2.text-color-white {
     background-color: #ffc107;
     font-weight: 600;
     color: #000;
+}
+.block-item-lr:hover .img-hover{
+    display: block;
+}
+
+#popup_contact > a.button{
+    background-color: #ffc107;
+    color: #fff;
 }
