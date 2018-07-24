@@ -19,7 +19,9 @@ class Drupal
 
 	public function getRequest($name,$isarray=false,$nid=null)
 	{
-		$retVal = ($name=='nid') ? '/'.$nid : '' ;
+		$cond = ['nid', 'pagina'];
+		$retVal = (str_contains($name, $cond)) ? '/'.$nid : '' ;
+
 		$sufijo = $retVal.'?_format=json';
 		$url = '/api/drinux/'.$name.$sufijo;
 		$response = $this->client->request('GET',$url);
