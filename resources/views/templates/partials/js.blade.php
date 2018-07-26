@@ -6,6 +6,7 @@
     <script src="{{ asset('js/animations/animations.js') }}"></script>
     <script src="{{ asset('js/email.js') }}"></script>
     <script src="{{ asset('js/scripts.js') }}"></script>
+    <script src="{{ asset('js/slick.js') }}"></script>
 
     <script src="{{ asset('plugins/rs-plugin/js/jquery.themepunch.tools.min.js') }}"></script>
     <script src="{{ asset('plugins/rs-plugin/js/jquery.themepunch.revolution.min.js') }}"></script>
@@ -111,6 +112,17 @@
                     }
                 });
             }
+            // Carrusel
+            tpj('.drinux-carrusel').slick({
+                autoplay: true,
+                dots: true,
+                infinite: true,
+                speed: 300,
+                slidesToShow: 1,
+                adaptiveHeight: true
+            });
+            tpj('.slick-prev').html('<i class="fa fa-chevron-left" aria-hidden="true"></i>');
+            tpj('.slick-next').html('<i class="fa fa-chevron-right" aria-hidden="true"></i>');
         });
     </script>
 

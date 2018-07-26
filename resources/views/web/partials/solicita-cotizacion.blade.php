@@ -3,7 +3,7 @@
         <div class="one-second column" style="padding-bottom: 0px;">
             <div class="animate fadeInLeftLarge" data-anim-type="fadeInLeftLarge">
                 <div>
-                    <h2 class="title-block">Solicita una cotización gratis</h2>
+                    <h2 class="title-block title-block-w-line">Solicita una cotización gratis</h2>
                     <p>En menos de 24 horas nos pondremos en contacto contigo para ayudarte a planificar tu próxima página web y enviarte nuestra mejor propuesta.</p>
                 </div>
             </div>

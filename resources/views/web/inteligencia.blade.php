@@ -11,6 +11,9 @@
 {{-- body --}}
 {!! $nodo->body !!}
 
+{{-- Carrusel --}}
+@include('web.partials.carrusel-interna')
+
 {{-- solicita cotizacion --}}
 @include('web.partials.solicita-cotizacion')
 

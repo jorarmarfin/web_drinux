@@ -30,6 +30,15 @@
                 </div>
             </aside>
         </div> --}}
+        <div class="one column">
+            <div class="list_item lists_2 clearfix animate fadeInLeftLarge" data-anim-type="fadeInLeftLarge">
+                <ul id="menu-footer">
+                    <li><a href="/">Inicio</a></li>
+                    <li><a href="#">¿Por qué elegirnos?</a></li>
+                    <li><a href="#">Contáctenos</a></li>
+                </ul>
+            </div>
+        </div>
         <div class="one-fourth column">
             <div class="list_item lists_2 clearfix animate fadeInLeftLarge" data-anim-type="fadeInLeftLarge">
                 <div class="list_left list_icon">
@@ -70,6 +79,15 @@
                         </p>
                     </div>
                 </div>
+            </div>
+        </div>
+        <div class="one column">
+            <div class="list_item lists_2 clearfix animate fadeInLeftLarge" data-anim-type="fadeInLeftLarge">
+                <ul id="menu-footer-social">
+                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                </ul>
             </div>
         </div>
     </div>

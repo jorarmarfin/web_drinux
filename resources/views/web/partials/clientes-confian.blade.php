@@ -2,7 +2,7 @@
    <div class="items_group clearfix">
       <div class="one column">
          <div class="animate zoomIn block-item-lr" data-anim-type="zoomIn">
-            <h2 class="title">Ellos confían en nosotros</h2>
+            <h2 class="title title-w-line">Ellos confían en nosotros</h2>
          </div>
       </div>
       <div class="one-fourth column">
