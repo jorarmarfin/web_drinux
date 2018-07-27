@@ -2,7 +2,7 @@
 
 Route::get('/','HomeController@index')->name('index');
 
-Route::namespace('Paginas')->group(function () {
+Route::group(['namespace'=>'Paginas'], function() {
 	Route::get('aplicaciones-moviles','AplicacionMovilController@index')
 	->name('aplicacionesmoviles.index');
 
