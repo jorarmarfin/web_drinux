@@ -1,4 +1,4 @@
-<div class="section_wrapper clearfix" style="width: 100%; margin-top: -1px; background: url({{ $nodo->imagen_secundaria }}); background-repeat: no-repeat; background-position: center center; background-size: cover;">
+<div class="section_wrapper clearfix" style="min-height: 450px; width: 100%; margin-top: -1px; background: url({{ $nodo->imagen_secundaria }}); background-repeat: no-repeat; background-position: center center; background-size: cover;">
     <div class="items_group clearfix" style="max-width: 1200px; margin: 0 auto;">
         <!-- One full width row-->
         <div class="one-second column" style="box-sizing: border-box; float: unset; float: right; padding: 20px;">
