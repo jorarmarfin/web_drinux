@@ -2,7 +2,7 @@
 
 Route::get('/','HomeController@index')->name('index');
 
-Route::group(['namespace'=>'Paginas'], function() {
+/*Route::group(['namespace'=>'Paginas'], function() {
 	Route::get('aplicaciones-moviles','AplicacionMovilController@index')
 	->name('aplicacionesmoviles.index');
 
@@ -14,5 +14,5 @@ Route::group(['namespace'=>'Paginas'], function() {
 
 	Route::get('sistema-de-informacion','InteligenciaNegocioController@index')
 	->name('sistema.index');
-});
+});*/
 
