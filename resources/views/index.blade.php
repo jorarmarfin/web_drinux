@@ -1,1 +1,1 @@
-@include('templates.index')
+@extends('templates.index')
